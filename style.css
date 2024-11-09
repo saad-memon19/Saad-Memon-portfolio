@@ -134,7 +134,11 @@ main hr {
   border: 4px solid #00abf0;
   box-shadow: #00abf0 0px 0px 20px;
 }
-
+#submits button:hover {
+  background-color: #00abf0;
+  color: #010911f8;
+  border: 4px solid #010911f8;
+}
 .conkaro {
   background-color: #019eff;
   color: #010911f8;
@@ -151,7 +155,27 @@ main hr {
 .button11 button:hover {
   background-color: #00abf0;
 }
-
+marquee {
+  background-color: #019eff;
+  background: linear-gradient(#000000, #0d1a27, #000000, #0d1a27, #000000);
+  overflow: hidden;
+  margin-top: 100px;
+}
+#animate11 {
+  background: linear-gradient(#08111a, #0d1a27, #000000, #0d1a27, #0a141e);
+}
+#animate22 {
+  /* background: linear-gradient(#08111A, #0d1a27, #000000, #0d1a27, #0A141E); */
+  margin: 60px 20px 30px 20px;
+  box-shadow: #000000 0px 0px 20px;
+}
+marquee img {
+  margin: 30px 50px 30px 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #000000 0px 0px 20px;
+}
 .red,
 .active {
   color: #00abf0;
@@ -200,6 +224,7 @@ main hr {
   font-size: 1.1rem;
   margin: 2rem 0 3rem;
   color: gray;
+  display: none;
 }
 
 .about-content ul li {
@@ -473,7 +498,7 @@ main hr {
 .container-card-2:hover {
   background-color: #00acf00a;
   /* color:#010911f8 ; */
-  padding: 42px;
+  /* padding: 42px; */
 }
 
 .bg-green-box {
