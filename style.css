@@ -96,6 +96,8 @@ main hr {
   text-align: center;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(#02213683, #000000, #000000); 
+
 }
 
 .purple {
